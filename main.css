@@ -44,3 +44,7 @@ body {
     border-radius: 5px;
     background: #354451;
 }
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
