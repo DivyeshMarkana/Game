@@ -10,6 +10,7 @@ body {
     background-color: #111323;
     display         : flex;
     height          : 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .memory-game {
@@ -63,6 +64,7 @@ body {
     justify-content : center;
     align-items     : center;
     background-color: #354451;
+    box-shadow: inset 0 0 10px 5px #fff ;
 }
 
 .card__shadow {
@@ -89,6 +91,13 @@ body {
 
 .result h4 {
     font-size: 3rem;
+}
+
+.result h4:nth-child(2) {
+    /* color: #111323; */
+    background: -webkit-linear-gradient(10turn,#111323, rgb(201, 89, 37));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .start__btn {
